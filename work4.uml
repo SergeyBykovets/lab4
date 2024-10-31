@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>D:/Навчання/ІПЗ/work4</OriginalElement>
+  <nodes>
+    <node x="-487.8786826347306" y="595.0692215568863">work4.VerBorder</node>
+    <node x="480.78491017964075" y="460.0444311377246">work4.LineInt</node>
+    <node x="473.21413173652695" y="582.5692215568863">work4.Line</node>
+    <node x="-317.4393413173653" y="460.0444311377246">work4.BorderInt</node>
+    <node x="468.78491017964075" y="36.10716913570363">work4.Main</node>
+    <node x="148.75" y="460.0444311377246">work4.ImageInt</node>
+    <node x="-320.9393413173653" y="595.0692215568863">work4.FullBorder</node>
+    <node x="-202.09437125748514" y="162.0">work4.Client</node>
+    <node x="-153.0" y="595.0692215568863">work4.HorBorder</node>
+    <node x="148.75" y="582.5692215568863">work4.Image</node>
+    <node x="36.0" y="125.5">work4.Facade</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="work4.Client" target="work4.Facade" relationship="TO_ONE">
+      <point x="-27.25" y="-44.0" />
+      <point x="-174.84437125748514" y="206.0" />
+      <point x="153.0" y="206.0" />
+      <point x="0.0" y="-80.5" />
+    </edge>
+    <edge source="work4.Client" target="work4.Line" relationship="CREATE">
+      <point x="27.25" y="-44.0" />
+      <point x="-120.34437125748514" y="206.0" />
+      <point x="-529.4850898203592" y="206.0" />
+      <point x="-529.4850898203592" y="736.8311377245509" />
+      <point x="543.214131736527" y="736.8311377245509" />
+      <point x="0.0" y="56.5" />
+    </edge>
+    <edge source="work4.Facade" target="work4.LineInt" relationship="TO_ONE">
+      <point x="0.0" y="-80.5" />
+      <point x="153.0" y="356.83113772455084" />
+      <point x="515.7849101796407" y="356.83113772455084" />
+      <point x="-35.0" y="31.5" />
+    </edge>
+    <edge source="work4.Facade" target="work4.BorderInt" relationship="TO_ONE">
+      <point x="0.0" y="-80.5" />
+      <point x="153.0" y="342.2835928143711" />
+      <point x="-224.4393413173653" y="342.2835928143711" />
+      <point x="31.0" y="31.5" />
+    </edge>
+    <edge source="work4.Client" target="work4.HorBorder" relationship="CREATE">
+      <point x="27.25" y="-44.0" />
+      <point x="-120.34437125748514" y="206.0" />
+      <point x="-529.4850898203592" y="206.0" />
+      <point x="-529.4850898203592" y="736.8311377245509" />
+      <point x="-48.9525748502993" y="736.8311377245509" />
+      <point x="-48.9525748502993" y="616.2231137724552" />
+      <point x="-87.0" y="616.2231137724552" />
+      <point x="0.0" y="44.0" />
+    </edge>
+    <edge source="work4.Main" target="work4.Client" relationship="CREATE">
+      <point x="0.0" y="0.0" />
+      <point x="550.7849101796407" y="35.345492488997024" />
+      <point x="-147.59437125748514" y="35.345492488997024" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="work4.Facade" target="work4.ImageInt" relationship="TO_ONE">
+      <point x="0.0" y="-80.5" />
+      <point x="153.0" y="418.3784431137724" />
+      <point x="193.0" y="418.3784431137724" />
+      <point x="-44.25" y="31.5" />
+    </edge>
+    <edge source="work4.FullBorder" target="work4.BorderInt" relationship="REALIZATION">
+      <point x="0.0" y="-44.0" />
+      <point x="-255.4393413173653" y="509.62290763113765" />
+      <point x="-0.22136406227559746" y="18.078476493413064" />
+    </edge>
+    <edge source="work4.VerBorder" target="work4.BorderInt" relationship="REALIZATION">
+      <point x="0.0" y="-44.0" />
+      <point x="-422.8786826347306" y="491.5444311377246" />
+      <point x="-286.4393413173653" y="491.5444311377246" />
+      <point x="-31.0" y="31.5" />
+    </edge>
+    <edge source="work4.Client" target="work4.Facade" relationship="CREATE">
+      <point x="27.25" y="-44.0" />
+      <point x="-120.34437125748514" y="68.88287425149684" />
+      <point x="153.0" y="68.88287425149684" />
+      <point x="0.0" y="80.5" />
+    </edge>
+    <edge source="work4.Image" target="work4.ImageInt" relationship="REALIZATION">
+      <point x="0.0" y="-56.5" />
+      <point x="237.25" y="552.8068263473054" />
+      <point x="237.32971937724562" y="552.8068263473054" />
+      <point x="0.07971937724562395" y="10.190179640718384" />
+    </edge>
+    <edge source="work4.Client" target="work4.Image" relationship="CREATE">
+      <point x="27.25" y="-44.0" />
+      <point x="-120.34437125748514" y="206.0" />
+      <point x="-529.4850898203592" y="206.0" />
+      <point x="-529.4850898203592" y="736.8311377245509" />
+      <point x="237.25" y="736.8311377245509" />
+      <point x="0.0" y="56.5" />
+    </edge>
+    <edge source="work4.HorBorder" target="work4.BorderInt" relationship="REALIZATION">
+      <point x="0.0" y="-44.0" />
+      <point x="-87.0" y="491.5444311377246" />
+      <point x="-214.591688009581" y="491.5444311377246" />
+      <point x="40.8476533077843" y="-2.4560321916169414" />
+    </edge>
+    <edge source="work4.Line" target="work4.LineInt" relationship="REALIZATION">
+      <point x="0.0" y="-56.5" />
+      <point x="543.214131736527" y="552.8068263473056" />
+      <point x="542.828162491018" y="552.8068263473056" />
+      <point x="-7.956747688622727" y="31.451976047904054" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.8936215753424659" showDependencies="true" x="258.04311377245494" y="389.86658682634726" />
+  <SelectedNodes>
+    <node>work4.Facade</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
